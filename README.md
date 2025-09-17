@@ -2,8 +2,7 @@
 # Simulador de Estruturas & Algoritmos — Consumo de Insumos (Python)
 
 **Objetivo:** demonstrar na prática o uso de **Fila (FIFO)**, **Pilha (LIFO)**, **Buscas (Linear/Binária)** e **Ordenações (Merge/Quick)**
-no contexto do desafio “baixa visibilidade no consumo de insumos”. O projeto **não** gera relatório; apenas **simula** e **imprime** no terminal.
-O relatório (PDF) é documento separado.
+no contexto do desafio “baixa visibilidade no consumo de insumos”.
 
 > Arquivo único: `sim_estoque_algoritmos.py`
 
@@ -24,7 +23,6 @@ O relatório (PDF) é documento separado.
 
 ## 🧰 Requisitos
 - Python **3.8+** (recomendado 3.10+).
-- Nenhuma biblioteca externa.
 
 > Dica: se quiser, crie um venv (opcional):
 ```bash
@@ -128,18 +126,4 @@ Eventos do insumo INS-001 (binária): 6
 - **Merge Sort**: **O(n log n)** tempo, **O(n)** espaço, *estável*.
 - **Quick Sort**: **O(n log n)** (médio), **O(n²)** (pior caso), normalmente *in-place* (aqui versão funcional).
 
----
 
-## 🧾 Notas de uso didático
-
-- A validade está simplificada por item (em cenários reais, é por **lote**).
-- A simulação usa distribuição aproximada (gaussiana) para volumetria diária.
-- **Relatório** exigido pelo desafio é um **PDF separado** (este projeto foca só na simulação/algoritmos).
-
----
-
-## 📂 Estrutura do projeto
-```
-.
-└── sim_estoque_algoritmos.py
-```
