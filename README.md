@@ -5,7 +5,7 @@
 no contexto do desafio “baixa visibilidade no consumo de insumos”. O projeto **não** gera relatório; apenas **simula** e **imprime** no terminal.
 O relatório (PDF) é documento separado.
 
-> Arquivo único: `sim_estoque_algoritmos.py` (sem dependências externas).
+> Arquivo único: `sim_estoque_algoritmos.py`
 
 ---
 
